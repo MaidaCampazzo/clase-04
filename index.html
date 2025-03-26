@@ -24,6 +24,12 @@
                 100% {transform: translateY(10px);}
             }
 
+
+			@keyframes flote {
+            	100% {transform: translateX(900px);}
+                0% {transform: translateX(0px);}
+            }            
+
             polygon#iceberg { animation: flota 3s ease infinite alternate; }
 
             line#mar { animation: flota 2s ease infinite alternate; }
@@ -57,6 +63,19 @@
             	margin: 0 auto;
             	animation: flota 1s ease infinite alternate;
             }
+
+            div#bote{
+            	margin-top: 10vh;
+            	width: 100%;
+
+            }
+
+            div#bote img{
+            	width: 30%;
+            	margin: 0 auto;
+            	animation: flote 4s ease infinite alternate;
+            }
+
 
         </style>
     </head>
@@ -121,9 +140,15 @@
 	</tr>
 </table>
 
+			<div id="bote">
+				<img src="jpg/bote.png">
+			</div>
+
 			<div id="cierre">
     <img src="https://www.gerdarntz.org/sites/gerdarntz.org/files/GMDH02_00290.gif" />
 			</div>
+
+
 
             </main>
             <footer>
